@@ -1,0 +1,25 @@
+{
+  "libros": [
+    {
+      "nombre": "Vermeer:La Obra Completa",
+      "autor": "Karl Shutz",
+      "precio": "5000",
+      "id": "1",
+      "stock": "3"
+    },
+    {
+      "nombre": "Eso no estaba en mi libros de matemáticas",
+      "autor": "Vicente Meavilla",
+      "precio": "1500",
+      "id": "2",
+      "stock": "25"
+    },
+    {
+      "nombre": "Bajo La Misma Estrella",
+      "autor": "John Green",
+      "precio": "2500",
+      "id": "3",
+      "stock": "10"
+    }
+  ]
+}

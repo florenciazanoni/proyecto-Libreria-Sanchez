@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria Buena Tinta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Stoke&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href=./Assets/CSS/style.css />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+
+
+
+</head>
+
+<body>
+    <main>
+        <section class="contenedor">
+            <div class="dashboard">
+                <div class="sideMenu">
+                    <img src="./Assets/Imgs/Imagenes/2quill.png" alt="">
+                    <h2>Buena Tinta</h2>
+                </div>
+                <div class="links">
+                    <div class="link">
+                        <img src="./Assets/Imgs/Imagenes/2home.png" alt="">
+                        <h2>Home</h2>
+                    </div>
+                    <div class="link">
+                        <img src="./Assets/Imgs/Imagenes/2menu.png" alt="">
+                        <h2>Categorías</h2>
+                    </div>
+                    <div class="link">
+                        <img src="./Assets/Imgs/Imagenes/2badge.png" alt="">
+                        <h2>Promociones</h2>
+                    </div>
+                </div>
+                <div class="sesion" id="sesion">
+
+                    <h2> Suscribite para mayores beneficios.</h2>
+                    <img src="./Assets/Imgs/Imagenes/read.png" alt="">
+                </div>
+            </div>
+            <div class="libros">
+                <div class="contenedor-carrito">
+                    <div class="carrito">
+                        <div class="lado-izq">
+                            <img class="img-carrito" src="./Assets/Imgs/Imagenes/shopping-cart.png" alt="">
+                            <h2 class="total"> Total: </h2>
+                        </div>
+                        <button id="vaciar" class="vaciar">Vaciar carrito</button>
+                    </div>
+                </div>
+                <div class="busqueda">
+                    <h1>¡Encontrá tu libro favorito!</h1>
+                    <input type="text" />
+                </div>
+                <div class="cajas">
+                    <section class="caja" id="caja">
+                        <template>
+                            <div class="infoCaja">
+                                <h2>Nombre</h2>
+                                <h3>Autor</h3>
+                                <h2 class="precio">Precio</h2>
+                                <button class="comprar">Agregar al carrito</button>
+                            </div>
+
+                    </section> </template>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="circulo1"></div>
+    <div class="circulo2"></div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./Assets/JS/libro.js"></script>
+    <script src="./Assets/JS/carrito.js"></script>
+    <script src="./Assets/JS/email.js"></script>
+    <script src="./Assets/JS/main.js"></script>
+</body>
+
+</html>
